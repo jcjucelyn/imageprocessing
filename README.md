@@ -1,4 +1,16 @@
 [![Build Status](https://travis-ci.org/micasense/imageprocessing.svg?branch=master)](https://travis-ci.org/micasense/imageprocessing)
+## Modifications Made 
+### Changes to Files
+- used macOS to set up environment. Refer to file macOS_setup.md for further instructions
+
+### Addition of Files
+- processing_files>coordinate_plots.py: iterate through a directory of images, extract and convert coordinates from dms to decimal degrees, then plot on indicated plot/map (create Folium map)
+- processing_files>map.html: the translated coordinates plotted on a Folium map
+- processing_files>convertedcoords.csv: a csv file containing the [dms > decimal degree] coordinates with columns ['Images', 'Latitude', 'Longitude', 'Coords']
+- processing_files>cornercalc.py: calculate the coordinates of corners of a NxN metre block around a given point
+- processing_files>ml_outlines: folder containing outlines for machine learning algorithms clustering, decision tree, linear regression, and random forest
+
+## Below is the ReadMe for the official MicaSense Imageprocessing repo.
 
 ## MicaSense RedEdge and Altum Image Processing Tutorials
 
